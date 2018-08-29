@@ -9,6 +9,14 @@
     <Import_RootNamespace>Zyc.Extensions</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Endian.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)System\Array\ByteArrayExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\Array\TMatrixExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\Byte\ByteExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\Char\CharExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\Double\DoubleExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\Int32\Int32Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\Single\SingleExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ToBytesHelper.cs" />
   </ItemGroup>
 </Project>
