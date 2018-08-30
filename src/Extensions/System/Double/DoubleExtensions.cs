@@ -30,7 +30,7 @@ namespace Zyc.Extensions
             //    default:
             //        throw new ArgumentOutOfRangeException(nameof(endian), "字节序仅能为大小端模式");
             //}
-            return ToBytesHelper.ToBytes(val, ToBytes);
+            return ToBytesHelper.ToBytes(val, ToBytes, endian);
         }
 
         /// <summary>

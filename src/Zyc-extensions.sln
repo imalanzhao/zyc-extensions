@@ -5,9 +5,22 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Extensions", "Extensions\Extensions.shproj", "{561782D5-E6F5-4D51-A309-4DA9E00AFA86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net45", "Net45\Net45.csproj", "{1D28C169-1C9D-4056-AE9A-D417CC074A4D}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Extensions\Extensions.projitems*{1d28c169-1c9d-4056-ae9a-d417cc074a4d}*SharedItemsImports = 4
 		Extensions\Extensions.projitems*{561782d5-e6f5-4d51-a309-4da9e00afa86}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D28C169-1C9D-4056-AE9A-D417CC074A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D28C169-1C9D-4056-AE9A-D417CC074A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D28C169-1C9D-4056-AE9A-D417CC074A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D28C169-1C9D-4056-AE9A-D417CC074A4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

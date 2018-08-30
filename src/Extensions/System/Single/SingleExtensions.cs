@@ -31,7 +31,7 @@ namespace Zyc.Extensions
         /// <param name="endian"></param>
         /// <returns>返回字节数组</returns>
         public static Byte[] ToBytes(this Single value, Endian endian) {
-            return ToBytesHelper.ToBytes(val, ToBytes);
+            return ToBytesHelper.ToBytes(value, ToBytes, endian);
         }
     }
 }

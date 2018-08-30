@@ -15,8 +15,13 @@
     <Compile Include="$(MSBuildThisFileDirectory)System\Byte\ByteExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)System\Char\CharExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)System\Double\DoubleExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\Enum\EnumExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)System\Int32\Int32Extensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)System\Single\SingleExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\String\GetAsciiBytes.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\String\IsNumeric.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\String\Contains.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\String\Match.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ToBytesHelper.cs" />
   </ItemGroup>
 </Project>

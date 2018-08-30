@@ -45,6 +45,8 @@ namespace Zyc.Extensions.System.Array
                     array[index++] = matrix[i, j];
                 }
             }
+
+            return array;
         }
 
         /// <summary>
@@ -66,6 +68,8 @@ namespace Zyc.Extensions.System.Array
                     array[index++] = matrix[j, i];
                 }
             }
+
+            return array;
         }
 
         /// <summary>
@@ -90,6 +94,8 @@ namespace Zyc.Extensions.System.Array
                     newMatrix[i, j] = convertTo(matrix[i, j]);
                 }
             }
+
+            return newMatrix;
         }
     }
 }

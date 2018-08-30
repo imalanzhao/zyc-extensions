@@ -7,7 +7,7 @@ namespace Zyc.Extensions
 {
     static class ToBytesHelper
     {
-        public Byte[] ToBytes<T>(T t, Func<T, Byte[]> toBytesWithLittleEndian, Endian endian) {
+        public static Byte[] ToBytes<T>(T t, Func<T, Byte[]> toBytesWithLittleEndian, Endian endian) {
             switch (endian) {
                 case Endian.BigEndian:
                     return toBytesWithLittleEndian(t).Reverse().ToArray();

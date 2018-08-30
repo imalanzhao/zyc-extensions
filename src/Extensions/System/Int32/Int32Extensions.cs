@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Zyc.Extensions.System.Int32
+namespace Zyc.Extensions
 {
-    public class Int32Extensions
+    public static class Int32Extensions
     {
         /// <summary>
         /// 获取整形数据的绝对值
@@ -31,7 +31,7 @@ namespace Zyc.Extensions.System.Int32
         /// <param name="endian"></param>
         /// <returns>返回字节数组</returns>
         public static Byte[] ToBytes(this Int32 value, Endian endian) {
-            return ToBytesHelper.ToBytes(val, ToBytes);
+            return ToBytesHelper.ToBytes(value, ToBytes, endian);
         }
     }
 }
